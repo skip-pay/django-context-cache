@@ -1,4 +1,5 @@
 Django>=2.2.9
-django-germanium==2.1.2
-coverage==4.0.2
+skip-django-germanium==2.3.6.1
+coveralls
+flake8
 -e ../

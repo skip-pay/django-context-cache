@@ -1,6 +1,3 @@
-from django.conf import settings
-from django.db.transaction import get_connection
-
 from threading import local
 
 from django.core.signals import request_finished
