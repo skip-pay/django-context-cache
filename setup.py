@@ -8,15 +8,15 @@ def read(fname):
 
 
 setup(
-    name='django-context-cache',
+    name='skip-django-context-cache',
     long_description=read('README.md'),
     long_description_content_type='text/markdown',
-    version='0.0.2',
+    version='0.0.2.1',
     description="Django context cache library.",
     keywords='django, cache, request cache',
     author='Lubos Matl',
     author_email='matllubos@gmail.com',
-    url='https://github.com/druids/django-context-cache',
+    url='https://github.com/skip-pay/django-context-cache',
     license='MIT',
     package_dir={'context_cache': 'context_cache'},
     include_package_data=True,

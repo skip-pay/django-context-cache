@@ -20,6 +20,7 @@ def cache_calculate_key(fn, *args, **kwargs):
         False
     )
 
+
 def cache_for_context(fn):
     """
     Decorator that allows to cache a function call with parameters and its result only for the current context cache
